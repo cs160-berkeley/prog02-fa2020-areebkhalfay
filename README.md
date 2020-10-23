@@ -1,10 +1,10 @@
 # PROG 02: Represent!
 
-Brief description here
+Implementation of Prog 02: Represent!
 
 ## Author
 
-FirstName LastName (email@berkeley.edu)
+Areeb Khalfay (areebk@berkeley.edu)
 
 ## Video Link
 
