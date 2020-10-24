@@ -7,9 +7,23 @@
     <string name="next_button_1">Next</string>
     <string name="line_1">Line 1</string>
     <string name="line_2">Line 2</string>
-    <string name="or_1">OR</string>
+    <string name="or_1"><u>OR</u></string>
     <string name="address"><u>Enter your Address Below:</u></string>
     <string name="next_button_2">Next</string>
     <string name="current_loc_button">Select your current Location</string>
     <string name="random_loc_button">Select a random location</string>
+    <string name="example_zipcode">eg: 94704</string>
+    <string name="example_address_1">eg: 2650 Durant Ave</string>
+    <string name="example_address_2">eg: Putnam #420</string>
+    <string name="example_city">eg: Berkeley</string>
+    <string name="example_state">eg: CA</string>
+    <string name="senator_title"><u>Senator:</u></string>
+    <string name="representative_title"><u>Representative:</u></string>
+    <string name="senator_1_name_placeholder">Name of Senator 1</string>
+    <string name="senator_2_name_placeholder">Name of Senator 2</string>
+    <string name="representative_placeholder">Name of Representative</string>
+    <string name="party_title"><u>Party:</u></string>
+    <string name="party_senator_1_placeholder">Party of Senator 1</string>
+    <string name="party_senator_2_placeholder">Party of Senator 2</string>
+    <string name="party_representative_placeholder">Party of Representative</string>
 </resources>
