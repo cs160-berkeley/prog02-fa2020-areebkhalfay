@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- //Credit from https://www.youtube.com/watch?v=rsqFpIp_DDA&ab_channel=Rectfy -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="2dp" android:color="#000000"/>
+            <corners android:radius="10dp" />
+            <gradient android:angle="360"
+                android:startColor="#000000"
+                android:endColor="#000000"
+                />
+        </shape>
+    </item>
+
+
+</selector>

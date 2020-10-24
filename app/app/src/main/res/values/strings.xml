@@ -5,4 +5,11 @@
     <string name="zip_code"><u>Enter your Zip Code Below:</u></string>
     <string name="democrat_repub_logo">Democrat and Republican Logo</string>
     <string name="next_button_1">Next</string>
+    <string name="line_1">Line 1</string>
+    <string name="line_2">Line 2</string>
+    <string name="or_1">OR</string>
+    <string name="address"><u>Enter your Address Below:</u></string>
+    <string name="next_button_2">Next</string>
+    <string name="current_loc_button">Select your current Location</string>
+    <string name="random_loc_button">Select a random location</string>
 </resources>
