@@ -22,6 +22,7 @@
 
     <ImageView
         android:id="@+id/senator_1_pic"
+        android:src="@drawable/no_image_available"
         android:layout_width="109dp"
         android:layout_height="156dp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
@@ -89,10 +90,25 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/senator_1_name"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="98dp"
+        android:layout_height="32dp"
+        android:background="@drawable/button_box"
+        android:onClick="sendSenator_1_Name"
+        android:text="@string/more_info_button"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.687" />
+        app:layout_constraintVertical_bias="0.905" />
 
     <View
         android:id="@+id/view2"
@@ -109,6 +125,7 @@
         android:id="@+id/representative_pic"
         android:layout_width="109dp"
         android:layout_height="156dp"
+        android:src="@drawable/no_image_available"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintHorizontal_bias="0.035"
@@ -129,23 +146,23 @@
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintVertical_bias="0.114" />
 
     <TextView
         android:id="@+id/representative_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/righteous"
+        android:gravity="center"
         android:hint="@string/representative_placeholder"
         android:textColor="#000000"
         android:textSize="18sp"
-        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintHorizontal_bias="0.901"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.331" />
+        app:layout_constraintVertical_bias="0.305" />
 
     <TextView
         android:id="@+id/party_title_3"
@@ -162,7 +179,7 @@
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.939" />
+        app:layout_constraintVertical_bias="0.575" />
 
     <TextView
         android:id="@+id/representative_party"
@@ -175,10 +192,25 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/representative_name"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="98dp"
+        android:layout_height="32dp"
+        android:background="@drawable/button_box"
+        android:onClick="sendRepresentative"
+        android:text="@string/more_info_button"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.726" />
+        app:layout_constraintVertical_bias="0.912" />
 
     <View
         android:id="@+id/view3"
@@ -195,6 +227,7 @@
         android:id="@+id/senator_2_pic"
         android:layout_width="109dp"
         android:layout_height="156dp"
+        android:src="@drawable/no_image_available"
         app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="@+id/view3"
         app:layout_constraintHorizontal_bias="0.035"
@@ -259,8 +292,23 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view3"
         app:layout_constraintEnd_toEndOf="@+id/view3"
-        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/senator_2_name"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="98dp"
+        android:layout_height="32dp"
+        android:background="@drawable/button_box"
+        android:onClick="sendSenator_2_Name"
+        android:text="@string/more_info_button"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="@+id/view3"
         app:layout_constraintTop_toTopOf="@+id/view3"
-        app:layout_constraintVertical_bias="0.668" />
+        app:layout_constraintVertical_bias="0.905" />
 </androidx.constraintlayout.widget.ConstraintLayout>

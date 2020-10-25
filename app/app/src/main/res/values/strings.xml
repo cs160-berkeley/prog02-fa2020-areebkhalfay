@@ -26,4 +26,14 @@
     <string name="party_senator_1_placeholder">Party of Senator 1</string>
     <string name="party_senator_2_placeholder">Party of Senator 2</string>
     <string name="party_representative_placeholder">Party of Representative</string>
+    <string name="more_info_button">More Info</string>
+    <string name="phone_number_title"><u>Phone Number:</u></string>
+    <string name="phone_number_placeholder">Phone Number</string>
+    <string name="website_button">Website</string>
+    <string name="email_title"><u>Email Address:</u></string>
+    <string name="email_address_placeholder">Email Address</string>
+    <string name="email_not_available">Not Available</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">YouTube</string>
 </resources>
