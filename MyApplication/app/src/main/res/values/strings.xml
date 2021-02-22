@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="protest_title">protest</string>
+    <string name="full_stop">.</string>
+
+    <string name="INFO">INFO</string>
+    <string name="event_details">EVENT DETAILS</string>
+
+    <string name="create_new_protest_heading"> CREATE NEW PROTEST</string>
+    <string name="Location_heading"> LOCATION</string>
+    <string name="nameHeading"> NAME</string>
+    <string name="datesHeading"> DATES</string>
+    <string name="descriptionHeading"> DESCRIPTION</string>
+    <string name="Location_heading_2"> LOCATION:</string>
+    <string name="start_date_heading_2"> START DATE:</string>
+    <string name="end_date_heading_2"> END DATE:</string>
+    <string name="description_Heading_2"> DESCRIPTION:</string>
+</resources>
