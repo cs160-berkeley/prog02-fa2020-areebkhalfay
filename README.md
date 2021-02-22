@@ -8,5 +8,4 @@ Areeb Khalfay (areebk@berkeley.edu)
 
 ## Video Link
 
-youtube.com/yourLinkAddress
-
+https://youtu.be/CawzvqKSY4A
